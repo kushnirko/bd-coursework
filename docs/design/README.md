@@ -187,4 +187,4 @@ Filter "0,*" --> "1,1" Request
 
 ## Реляційна схема
 
-![relational-schema](./images/relational-schema.png)
+![relational-schema](media/relational-schema.png)

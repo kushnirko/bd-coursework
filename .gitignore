@@ -69,8 +69,8 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
+*.env
+*.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -105,3 +105,6 @@ dist
 
 # JetBrains IDEs folder for project-specific settings
 .idea
+
+# Stored sessions
+src/js/sessions/

@@ -76,7 +76,7 @@ module.exports = {
 
     lastUpdated: 'Останнє оновлення', // string | boolean
       // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'https://github.com/edu-db/edu_db_labs',
+    repo: 'https://github.com/kushnirko/db-coursework',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Github',
@@ -96,7 +96,7 @@ module.exports = {
 
   },
   title: 'Система управління відкритими даними',
-  description: 'Лабораторні роботи з дисципліни "Організація баз даних"',
+  description: 'Курсова робота з дисципліни "Бази даних"',
   configureWebpack: {
     resolve: {
       alias: {

@@ -69,7 +69,7 @@ const updateUserProfile = async (req, res) => {
   try {
     const { client } = req;
     client.checkLogin();
-    const id = client.user[0].id;
+    const id = client.user.id;
     const { nickname, firstname, lastname, email, password } = req.body;
     const updatedUser = await User.updateById(id, {
       nickname,

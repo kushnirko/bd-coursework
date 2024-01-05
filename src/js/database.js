@@ -14,9 +14,6 @@ const access = {
 const pool = promiseMysql.createPool(access);
 
 const executeSql = async (sql, values) => {
-
-  //console.log(sql);
-
   let connection;
   try {
     connection = await pool.getConnection();
@@ -32,9 +29,6 @@ const executeSql = async (sql, values) => {
 };
 
 const safeExecuteSql = async (sql, values) => {
-
-  console.log(sql);
-
   let connection = null;
   try {
     connection = await pool.getConnection();
